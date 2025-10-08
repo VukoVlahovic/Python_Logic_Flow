@@ -1,6 +1,4 @@
-for i, items in enumerate(list(range(100))):
-    if i == 50:
-        print(f"The position of {items} is {i}.")
-    elif i != 50:
-        print(f"...LOADING...")
-print("ANALYSIS COMPLETE")
+for x in reversed(range(1, 11, 2)):
+    print(x)
+
+print("Happy New Year!")
